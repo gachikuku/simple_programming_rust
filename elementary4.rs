@@ -4,7 +4,9 @@ fn main() {
 
     print!("Give me number n: ");
 
-    io::stdout().flush().unwrap();
+    io::stdout()
+        .flush()
+        .unwrap();
 
     let mut user_n = String::new();
 
